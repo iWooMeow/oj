@@ -1,14 +1,18 @@
 #include <stdio.h>
 
 int main() {
-  long double x = 0, result = 0;
+  double x = 0, result = 0;
+
+
   int n = 0;
-  scanf("%Lf%d", &x, &n);
-  long double temp = 4 * x;
-  for (int i = 0; i <= n; i++) {
-    result += temp / (2 * i + 1);
-    temp = temp * x * x * (-1);
+  scanf("%lf%d", &x, &n);
+  double temp = x;
+  for (int i = 0; i <= n;) {
+    result += temp;
+    i++;
+    temp *= x * x * (2 * i - 1) / (2 * i + 1) * (-1);
   }
-  printf("%.10Lf", result);
+
+  printf("%.10lf\n", 4 * result);
   return 0;
 }

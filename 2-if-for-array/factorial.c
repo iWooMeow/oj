@@ -1,26 +1,13 @@
 #include <stdio.h>
-
 #define DIVISOR 10007
 
-long long factorial(long long input);
-
 int main() {
-  long long n = 0;
-  scanf("%lld", &n);
-  long long result = 0;
-  for (long long i = 1; i <= n; i++) {
-    result += factorial(i) % DIVISOR;
+  int n = 0, result = 0, temp = 1;
+  scanf("%d", &n);
+  for (int i = 1; i <= n; i++) {
+    temp = (temp * i) % DIVISOR;
+    result = (result + temp) % DIVISOR;
   }
-  
-  result =result%DIVISOR;
-  printf("%lld",result);
+  printf("%d", result);
   return 0;
-}
-
-long long factorial(long long input){
-  long long result=1;
-  for (long long i = 1;i <=input;i++){
-    result =(result*i)%DIVISOR;
-  }
-  return result;
 }
