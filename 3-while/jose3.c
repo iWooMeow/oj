@@ -15,13 +15,13 @@ int joseRecur(int n, int k) {
   if (n == 1) {
     return 1;
   } else {
-    return ((joseRecur(n - 1, k) - k - 1) % n + n) % n + 1;
+    return ((joseRecur(n - 1, k) + k - 1) % n + n) % n + 1;
   }
 }
 int joseIter(int n, int k) {
   int result = 1;
   for (int i = 2; i <= n; i++) {
-    result = ((result - k - 1) % i + i) % i + 1;
+    result = ((result + k - 1) % i + i) % i + 1;
   }
   return result;
 }
