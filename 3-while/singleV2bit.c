@@ -14,5 +14,7 @@ int main() {
     two &= ~three;
   }
   printf("%d", one);
+  printf("%d", two);
+  printf("%d", three);
   return 0;
 }
