@@ -8,15 +8,32 @@ bool proceedy();
 bool proceedDirectx();
 bool proceedDirecty();
 void print(int i, char a);
+int test(int x0, int y0, int x1, int y1, int xc, int yc);
 
 int x0 = 0, y0 = 0, x1 = 0, y1 = 0, xc = 0, yc = 0;
 int x = 0, y = 0;
 int ix = 0, iy = 0;
 int main() {
-  scanf("%d%d%d%d%d%d", &x0, &y0, &x1, &y1, &xc, &yc);
+  for (; x0 < 6; x0++) {
+    for (; y0 < 6; y0++) {
+      for (; x1 < 6; x1++) {
+        for (; y1 < 6; y1++) {
+          for (; xc < 6; xc++) {
+            for (; yc < 6; yc++) {
+              test(x0, y0, x1, y1, xc, yc);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+int test(int x0, int y0, int x1, int y1, int xc, int yc) {
+  // scanf("%d%d%d%d%d%d", &x0, &y0, &x1, &y1, &xc, &yc);
   x = x0;
   y = y0;
- if (((y0 == y1) && (x0 < xc) && (xc < x1)) || ((y0 == y1) && (x0 > xc) && (xc > x1))) {
+  if (((y0 == y1) && (x0 < xc) && (xc < x1)) ||
+      ((y0 == y1) && (x0 > xc) && (xc > x1))) {
 
     printf("%d\n", abs(x0 - x1) + 2);
 

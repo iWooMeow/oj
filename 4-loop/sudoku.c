@@ -49,19 +49,29 @@ int main() {
   return 0;
 }
 bool valid(int validate[]) {
-  int status = 0;
+  // int status = 0;
+  // for (int i = 1; i <= 9; i++) {
+  //   for (int j = 0; j < 9; j++) {
+  //     if (validate[j] == i) {
+  //       status++;
+  //       break;
+  //     }
+  //   }
+  // }
+  // if (status != 9) {
+  //   return false;
+  // } else {
+  //   return true;
+  // }
+  int bucket[100] = {0};
+  for (int i = 0; i < 9; i++) {
+    bucket[validate[i]]++;
+  }
   for (int i = 1; i <= 9; i++) {
-    for (int j = 0; j < 9; j++) {
-      if (validate[j] == i) {
-        status++;
-        break;
-      }
+    if (bucket[i] != 1) {
+      return false;
     }
   }
-  if (status != 9) {
-    return false;
-  } else {
-    return true;
-  }
+  return true;
 }
 // remember to break the loop

@@ -8,7 +8,7 @@ char len2[SIZE];
 int search(char array[], int position, char target);
 int countArray(char array[]);
 void copy(char len1[], char len2[]);
-
+// the most hard part is how to address the array with 3 empty elements
 int main() {
   int n = 0;
   scanf("%d", &n);
