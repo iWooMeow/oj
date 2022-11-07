@@ -2,15 +2,17 @@
 #define LEN 5
 
 int BinarySearch(int key, int dict[], int len);
+int BinaryRecur(int key, const int dict[], int left, int right);
 
 // avoid using global variables
 // learn to add const when not modify the array
 
 int main(void) {
 
-  int key = 5;
-  int dict[LEN] = {1, 3, 5, 6, 6};
-  int index = BinarySearch(key, dict, LEN);
+  int key = 7;
+  scanf("%d", &key);
+  int dict[LEN] = {1, 3, 5, 6, 99};
+  int index = BinaryRecur(key, dict, 0, LEN);
   printf("%d", index);
   return 0;
 }
@@ -38,4 +40,18 @@ int BinarySearch(int key, int *dict, int len) {
   return -1;
   // printf("%d", index);
   // return 0;
+}
+int BinaryRecur(int key, const int dict[], int left, int right) {
+
+  // int index = -1;
+  int mid = (right + left) / 2;
+  if (left < right && dict[mid] == key) {
+    return mid;
+  } else if (left == right) {
+    return -1;
+  } else {
+    left = dict[mid] > key ? left : mid + 1;
+    right = dict[mid] < key ? right : mid;
+    return BinaryRecur(key, dict, left, right);
+  }
 }
