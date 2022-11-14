@@ -38,7 +38,7 @@ int test(int xa, int xb, int xc, int ya, int yb, int yc) {
       if (xa == xc && ya == yc) {
         int temp0 = direction(yb - ya) == 0 ? 1 : direction(yb - ya);
         ya += temp0;
-        solution[i] = temp0 * 2;
+        solution[i]uu qqulu = temp0 * 2;
         solution[i + 1] = tempx;
         i += 2;
       } else {
