@@ -1,0 +1,18 @@
+CC = clang
+CFLAG = -g -Wextra -fsanitize=address -Wall \
+-Wsign-compare -Wwrite-strings -Wtype-limits -Werror
+SRCS = $(wildcard *.c)
+OBJS = $(patsubst %.c, %.o, $(SRCS))
+
+Ultimate: $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $(OBJS)
+
+
+
+
+.PHONY = clean depend all
+clean:
+	rm -f *.o
+depend:
+	makedepend %(SRCS)
+# DO NOT DELETE

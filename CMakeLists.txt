@@ -1,6 +1,25 @@
 cmake_minimum_required(VERSION 3.24)
-project(oj C)
-set(CMAKE_C_STANDARD 23)
+project(OJ)
+
+set(CMAKE_C_FLAGS "-g -Wall -Wextra -fsanitize=address -Wwrite-strings")
+
+set(CMAKE_C_STANDARD 17)
+
+
 add_subdirectory(0-intro)
 add_subdirectory(1-types-io)
+add_subdirectory(11-list)
 add_subdirectory(2-if-for-array)
+add_subdirectory(3-while)
+add_subdirectory(4-loop)
+add_subdirectory(5-function)
+add_subdirectory(6-recur)
+add_subdirectory(7-datatypes)
+add_subdirectory(8-pointer)
+add_subdirectory(9-ptrs)
+add_subdirectory(append)
+add_subdirectory(contest)
+add_subdirectory(project1)
+add_subdirectory(test)
+add_subdirectory(exam)
+add_subdirectory(12-ll)

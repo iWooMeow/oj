@@ -1,0 +1,8 @@
+add_executable(sorted sorted.c)
+add_executable(bsearch bsearch.c)
+add_executable(gobang gobang.c)
+add_executable(lineup lineup.c)
+add_executable(multithread multithread.c)
+add_executable(lineupArray lineupArray.c)
+add_executable(submit submit.c)
+add_executable(gen gen.c)

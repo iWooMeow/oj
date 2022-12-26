@@ -1,0 +1,8 @@
+# ninja log v5
+1	28	1671378575907687794	12-ll/LinkedLists/CMakeFiles/LinkedList.dir/LinkedList.c.o	75fa4c0153286c15
+0	32	1671255624043553655	12-ll/CMakeFiles/josephus.dir/josephus.c.o	235e5e9e8b00c5c2
+89	118	1671790939192698352	exam/lineup	210953c0bf7e627a
+47	79	1671378575959847130	12-ll/josephus	65d8039d0c95f7a4
+0	31	1671378559547875793	12-ll/LinkedLists/libLinkedList.dylib	551338638202dd00
+28	47	1671378575928037000	12-ll/LinkedLists/libLinkedList.a	7128e92d3886f536
+0	89	1671790939162756789	exam/CMakeFiles/lineup.dir/lineup.c.o	e2cfcc939f1884af

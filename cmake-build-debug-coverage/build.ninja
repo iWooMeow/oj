@@ -1,0 +1,1180 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: OJ
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 0-intro/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/0-intro && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 0-intro/edit_cache: phony 0-intro/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 0-intro/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/0-intro && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 0-intro/rebuild_cache: phony 0-intro/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 1-types-io/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/1-types-io && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 1-types-io/edit_cache: phony 1-types-io/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 1-types-io/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/1-types-io && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 1-types-io/rebuild_cache: phony 1-types-io/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 11-list/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/11-list && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 11-list/edit_cache: phony 11-list/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 11-list/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/11-list && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 11-list/rebuild_cache: phony 11-list/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 2-if-for-array/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/2-if-for-array && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 2-if-for-array/edit_cache: phony 2-if-for-array/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 2-if-for-array/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/2-if-for-array && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 2-if-for-array/rebuild_cache: phony 2-if-for-array/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 3-while/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/3-while && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 3-while/edit_cache: phony 3-while/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 3-while/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/3-while && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 3-while/rebuild_cache: phony 3-while/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 4-loop/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/4-loop && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 4-loop/edit_cache: phony 4-loop/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 4-loop/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/4-loop && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 4-loop/rebuild_cache: phony 4-loop/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 5-function/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/5-function && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 5-function/edit_cache: phony 5-function/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 5-function/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/5-function && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 5-function/rebuild_cache: phony 5-function/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 6-recur/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/6-recur && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 6-recur/edit_cache: phony 6-recur/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 6-recur/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/6-recur && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 6-recur/rebuild_cache: phony 6-recur/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cube
+
+
+#############################################
+# Order-only phony target for cube
+
+build cmake_object_order_depends_target_cube: phony || 7-datatypes/CMakeFiles/cube.dir
+
+build 7-datatypes/CMakeFiles/cube.dir/cube.c.o: C_COMPILER__cube_Debug /Users/ryan/Desktop/OJ/7-datatypes/cube.c || cmake_object_order_depends_target_cube
+  DEP_FILE = 7-datatypes/CMakeFiles/cube.dir/cube.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = 7-datatypes/CMakeFiles/cube.dir
+  OBJECT_FILE_DIR = 7-datatypes/CMakeFiles/cube.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cube
+
+
+#############################################
+# Link the executable 7-datatypes/cube
+
+build 7-datatypes/cube: C_EXECUTABLE_LINKER__cube_Debug 7-datatypes/CMakeFiles/cube.dir/cube.c.o
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = 7-datatypes/CMakeFiles/cube.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 7-datatypes/cube
+  TARGET_PDB = cube.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 7-datatypes/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/7-datatypes && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 7-datatypes/edit_cache: phony 7-datatypes/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 7-datatypes/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/7-datatypes && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 7-datatypes/rebuild_cache: phony 7-datatypes/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 8-pointer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/8-pointer && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 8-pointer/edit_cache: phony 8-pointer/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 8-pointer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/8-pointer && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 8-pointer/rebuild_cache: phony 8-pointer/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 9-ptrs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/9-ptrs && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 9-ptrs/edit_cache: phony 9-ptrs/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 9-ptrs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/9-ptrs && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 9-ptrs/rebuild_cache: phony 9-ptrs/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build append/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build append/edit_cache: phony append/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build append/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/append && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build append/rebuild_cache: phony append/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build contest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/contest && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build contest/edit_cache: phony contest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build contest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/contest && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build contest/rebuild_cache: phony contest/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build project1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/project1 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build project1/edit_cache: phony project1/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build project1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/project1 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build project1/rebuild_cache: phony project1/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || cmake_object_order_depends_target_myadd
+
+build test/CMakeFiles/test.dir/test.c.o: C_COMPILER__test_Debug /Users/ryan/Desktop/OJ/test/test.c || cmake_object_order_depends_target_test
+  DEP_FILE = test/CMakeFiles/test.dir/test.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = test/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test/test
+
+build test/test: C_EXECUTABLE_LINKER__test_Debug test/CMakeFiles/test.dir/test.c.o | test/libmyadd.dylib || test/libmyadd.dylib
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Users/ryan/Desktop/OJ/cmake-build-debug-coverage/test  test/libmyadd.dylib
+  OBJECT_DIR = test/CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/test
+  TARGET_PDB = test.dbg
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target myadd
+
+
+#############################################
+# Order-only phony target for myadd
+
+build cmake_object_order_depends_target_myadd: phony || test/CMakeFiles/myadd.dir
+
+build test/CMakeFiles/myadd.dir/myadd.c.o: C_COMPILER__myadd_Debug /Users/ryan/Desktop/OJ/test/myadd.c || cmake_object_order_depends_target_myadd
+  DEFINES = -Dmyadd_EXPORTS
+  DEP_FILE = test/CMakeFiles/myadd.dir/myadd.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fPIC -fcolor-diagnostics
+  OBJECT_DIR = test/CMakeFiles/myadd.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/myadd.dir
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target myadd
+
+
+#############################################
+# Link the shared library test/libmyadd.dylib
+
+build test/libmyadd.dylib: C_SHARED_LIBRARY_LINKER__myadd_Debug test/CMakeFiles/myadd.dir/myadd.c.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  INSTALLNAME_DIR = @rpath/
+  LANGUAGE_COMPILE_FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g
+  OBJECT_DIR = test/CMakeFiles/myadd.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = libmyadd.dylib
+  SONAME_FLAG = -install_name
+  TARGET_FILE = test/libmyadd.dylib
+  TARGET_PDB = myadd.dylib.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build test/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/test && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test/edit_cache: phony test/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/test && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test/rebuild_cache: phony test/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sorted
+
+
+#############################################
+# Order-only phony target for sorted
+
+build cmake_object_order_depends_target_sorted: phony || exam/CMakeFiles/sorted.dir
+
+build exam/CMakeFiles/sorted.dir/sorted.c.o: C_COMPILER__sorted_Debug /Users/ryan/Desktop/OJ/exam/sorted.c || cmake_object_order_depends_target_sorted
+  DEP_FILE = exam/CMakeFiles/sorted.dir/sorted.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = exam/CMakeFiles/sorted.dir
+  OBJECT_FILE_DIR = exam/CMakeFiles/sorted.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sorted
+
+
+#############################################
+# Link the executable exam/sorted
+
+build exam/sorted: C_EXECUTABLE_LINKER__sorted_Debug exam/CMakeFiles/sorted.dir/sorted.c.o
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = exam/CMakeFiles/sorted.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exam/sorted
+  TARGET_PDB = sorted.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bsearch
+
+
+#############################################
+# Order-only phony target for bsearch
+
+build cmake_object_order_depends_target_bsearch: phony || exam/CMakeFiles/bsearch.dir
+
+build exam/CMakeFiles/bsearch.dir/bsearch.c.o: C_COMPILER__bsearch_Debug /Users/ryan/Desktop/OJ/exam/bsearch.c || cmake_object_order_depends_target_bsearch
+  DEP_FILE = exam/CMakeFiles/bsearch.dir/bsearch.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = exam/CMakeFiles/bsearch.dir
+  OBJECT_FILE_DIR = exam/CMakeFiles/bsearch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bsearch
+
+
+#############################################
+# Link the executable exam/bsearch
+
+build exam/bsearch: C_EXECUTABLE_LINKER__bsearch_Debug exam/CMakeFiles/bsearch.dir/bsearch.c.o
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = exam/CMakeFiles/bsearch.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exam/bsearch
+  TARGET_PDB = bsearch.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gobang
+
+
+#############################################
+# Order-only phony target for gobang
+
+build cmake_object_order_depends_target_gobang: phony || exam/CMakeFiles/gobang.dir
+
+build exam/CMakeFiles/gobang.dir/gobang.c.o: C_COMPILER__gobang_Debug /Users/ryan/Desktop/OJ/exam/gobang.c || cmake_object_order_depends_target_gobang
+  DEP_FILE = exam/CMakeFiles/gobang.dir/gobang.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = exam/CMakeFiles/gobang.dir
+  OBJECT_FILE_DIR = exam/CMakeFiles/gobang.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gobang
+
+
+#############################################
+# Link the executable exam/gobang
+
+build exam/gobang: C_EXECUTABLE_LINKER__gobang_Debug exam/CMakeFiles/gobang.dir/gobang.c.o
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = exam/CMakeFiles/gobang.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exam/gobang
+  TARGET_PDB = gobang.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lineup
+
+
+#############################################
+# Order-only phony target for lineup
+
+build cmake_object_order_depends_target_lineup: phony || exam/CMakeFiles/lineup.dir
+
+build exam/CMakeFiles/lineup.dir/lineup.c.o: C_COMPILER__lineup_Debug /Users/ryan/Desktop/OJ/exam/lineup.c || cmake_object_order_depends_target_lineup
+  DEP_FILE = exam/CMakeFiles/lineup.dir/lineup.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = exam/CMakeFiles/lineup.dir
+  OBJECT_FILE_DIR = exam/CMakeFiles/lineup.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lineup
+
+
+#############################################
+# Link the executable exam/lineup
+
+build exam/lineup: C_EXECUTABLE_LINKER__lineup_Debug exam/CMakeFiles/lineup.dir/lineup.c.o
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = exam/CMakeFiles/lineup.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exam/lineup
+  TARGET_PDB = lineup.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target multithread
+
+
+#############################################
+# Order-only phony target for multithread
+
+build cmake_object_order_depends_target_multithread: phony || exam/CMakeFiles/multithread.dir
+
+build exam/CMakeFiles/multithread.dir/multithread.c.o: C_COMPILER__multithread_Debug /Users/ryan/Desktop/OJ/exam/multithread.c || cmake_object_order_depends_target_multithread
+  DEP_FILE = exam/CMakeFiles/multithread.dir/multithread.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = exam/CMakeFiles/multithread.dir
+  OBJECT_FILE_DIR = exam/CMakeFiles/multithread.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target multithread
+
+
+#############################################
+# Link the executable exam/multithread
+
+build exam/multithread: C_EXECUTABLE_LINKER__multithread_Debug exam/CMakeFiles/multithread.dir/multithread.c.o
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = exam/CMakeFiles/multithread.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exam/multithread
+  TARGET_PDB = multithread.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lineupArray
+
+
+#############################################
+# Order-only phony target for lineupArray
+
+build cmake_object_order_depends_target_lineupArray: phony || exam/CMakeFiles/lineupArray.dir
+
+build exam/CMakeFiles/lineupArray.dir/lineupArray.c.o: C_COMPILER__lineupArray_Debug /Users/ryan/Desktop/OJ/exam/lineupArray.c || cmake_object_order_depends_target_lineupArray
+  DEP_FILE = exam/CMakeFiles/lineupArray.dir/lineupArray.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = exam/CMakeFiles/lineupArray.dir
+  OBJECT_FILE_DIR = exam/CMakeFiles/lineupArray.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lineupArray
+
+
+#############################################
+# Link the executable exam/lineupArray
+
+build exam/lineupArray: C_EXECUTABLE_LINKER__lineupArray_Debug exam/CMakeFiles/lineupArray.dir/lineupArray.c.o
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = exam/CMakeFiles/lineupArray.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exam/lineupArray
+  TARGET_PDB = lineupArray.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target submit
+
+
+#############################################
+# Order-only phony target for submit
+
+build cmake_object_order_depends_target_submit: phony || exam/CMakeFiles/submit.dir
+
+build exam/CMakeFiles/submit.dir/submit.c.o: C_COMPILER__submit_Debug /Users/ryan/Desktop/OJ/exam/submit.c || cmake_object_order_depends_target_submit
+  DEP_FILE = exam/CMakeFiles/submit.dir/submit.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = exam/CMakeFiles/submit.dir
+  OBJECT_FILE_DIR = exam/CMakeFiles/submit.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target submit
+
+
+#############################################
+# Link the executable exam/submit
+
+build exam/submit: C_EXECUTABLE_LINKER__submit_Debug exam/CMakeFiles/submit.dir/submit.c.o
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = exam/CMakeFiles/submit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exam/submit
+  TARGET_PDB = submit.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gen
+
+
+#############################################
+# Order-only phony target for gen
+
+build cmake_object_order_depends_target_gen: phony || exam/CMakeFiles/gen.dir
+
+build exam/CMakeFiles/gen.dir/gen.c.o: C_COMPILER__gen_Debug /Users/ryan/Desktop/OJ/exam/gen.c || cmake_object_order_depends_target_gen
+  DEP_FILE = exam/CMakeFiles/gen.dir/gen.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = exam/CMakeFiles/gen.dir
+  OBJECT_FILE_DIR = exam/CMakeFiles/gen.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gen
+
+
+#############################################
+# Link the executable exam/gen
+
+build exam/gen: C_EXECUTABLE_LINKER__gen_Debug exam/CMakeFiles/gen.dir/gen.c.o
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = exam/CMakeFiles/gen.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exam/gen
+  TARGET_PDB = gen.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build exam/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/exam && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build exam/edit_cache: phony exam/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build exam/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/exam && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build exam/rebuild_cache: phony exam/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target josephus
+
+
+#############################################
+# Order-only phony target for josephus
+
+build cmake_object_order_depends_target_josephus: phony || cmake_object_order_depends_target_LinkedList
+
+build 12-ll/CMakeFiles/josephus.dir/josephus.c.o: C_COMPILER__josephus_Debug /Users/ryan/Desktop/OJ/12-ll/josephus.c || cmake_object_order_depends_target_josephus
+  DEP_FILE = 12-ll/CMakeFiles/josephus.dir/josephus.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/ryan/Desktop/OJ/12-ll/LinkedLists
+  OBJECT_DIR = 12-ll/CMakeFiles/josephus.dir
+  OBJECT_FILE_DIR = 12-ll/CMakeFiles/josephus.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target josephus
+
+
+#############################################
+# Link the executable 12-ll/josephus
+
+build 12-ll/josephus: C_EXECUTABLE_LINKER__josephus_Debug 12-ll/CMakeFiles/josephus.dir/josephus.c.o | 12-ll/LinkedLists/libLinkedList.a || 12-ll/LinkedLists/libLinkedList.a
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = 12-ll/LinkedLists/libLinkedList.a
+  OBJECT_DIR = 12-ll/CMakeFiles/josephus.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 12-ll/josephus
+  TARGET_PDB = josephus.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 12-ll/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/12-ll && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 12-ll/edit_cache: phony 12-ll/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 12-ll/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/12-ll && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 12-ll/rebuild_cache: phony 12-ll/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ryan/Desktop/OJ/12-ll/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target LinkedList
+
+
+#############################################
+# Order-only phony target for LinkedList
+
+build cmake_object_order_depends_target_LinkedList: phony || 12-ll/LinkedLists/CMakeFiles/LinkedList.dir
+
+build 12-ll/LinkedLists/CMakeFiles/LinkedList.dir/LinkedList.c.o: C_COMPILER__LinkedList_Debug /Users/ryan/Desktop/OJ/12-ll/LinkedLists/LinkedList.c || cmake_object_order_depends_target_LinkedList
+  DEP_FILE = 12-ll/LinkedLists/CMakeFiles/LinkedList.dir/LinkedList.c.o.d
+  FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = 12-ll/LinkedLists/CMakeFiles/LinkedList.dir
+  OBJECT_FILE_DIR = 12-ll/LinkedLists/CMakeFiles/LinkedList.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target LinkedList
+
+
+#############################################
+# Link the static library 12-ll/LinkedLists/libLinkedList.a
+
+build 12-ll/LinkedLists/libLinkedList.a: C_STATIC_LIBRARY_LINKER__LinkedList_Debug 12-ll/LinkedLists/CMakeFiles/LinkedList.dir/LinkedList.c.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  LANGUAGE_COMPILE_FLAGS = -g -Wall -Wextra -fsanitize=address -Wwrite-strings -g
+  OBJECT_DIR = 12-ll/LinkedLists/CMakeFiles/LinkedList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 12-ll/LinkedLists/libLinkedList.a
+  TARGET_PDB = LinkedList.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 12-ll/LinkedLists/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/12-ll/LinkedLists && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 12-ll/LinkedLists/edit_cache: phony 12-ll/LinkedLists/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 12-ll/LinkedLists/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/12-ll/LinkedLists && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ryan/Desktop/OJ -B/Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 12-ll/LinkedLists/rebuild_cache: phony 12-ll/LinkedLists/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build LinkedList: phony 12-ll/LinkedLists/libLinkedList.a
+
+build bsearch: phony exam/bsearch
+
+build cube: phony 7-datatypes/cube
+
+build gen: phony exam/gen
+
+build gobang: phony exam/gobang
+
+build josephus: phony 12-ll/josephus
+
+build libLinkedList.a: phony 12-ll/LinkedLists/libLinkedList.a
+
+build libmyadd.dylib: phony test/libmyadd.dylib
+
+build lineup: phony exam/lineup
+
+build lineupArray: phony exam/lineupArray
+
+build multithread: phony exam/multithread
+
+build myadd: phony test/libmyadd.dylib
+
+build sorted: phony exam/sorted
+
+build submit: phony exam/submit
+
+build test: phony test/test
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage
+
+build all: phony 0-intro/all 1-types-io/all 11-list/all 2-if-for-array/all 3-while/all 4-loop/all 5-function/all 6-recur/all 7-datatypes/all 8-pointer/all 9-ptrs/all append/all contest/all project1/all test/all exam/all 12-ll/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/0-intro
+
+build 0-intro/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/1-types-io
+
+build 1-types-io/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/11-list
+
+build 11-list/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/12-ll
+
+build 12-ll/all: phony 12-ll/josephus 12-ll/LinkedLists/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/12-ll/LinkedLists
+
+build 12-ll/LinkedLists/all: phony 12-ll/LinkedLists/libLinkedList.a
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/2-if-for-array
+
+build 2-if-for-array/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/3-while
+
+build 3-while/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/4-loop
+
+build 4-loop/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/5-function
+
+build 5-function/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/6-recur
+
+build 6-recur/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/7-datatypes
+
+build 7-datatypes/all: phony 7-datatypes/cube
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/8-pointer
+
+build 8-pointer/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/9-ptrs
+
+build 9-ptrs/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/append
+
+build append/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/contest
+
+build contest/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/exam
+
+build exam/all: phony exam/sorted exam/bsearch exam/gobang exam/lineup exam/multithread exam/lineupArray exam/submit exam/gen
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/project1
+
+build project1/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ryan/Desktop/OJ/cmake-build-debug-coverage/test
+
+build test/all: phony test/test test/libmyadd.dylib
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/ryan/Desktop/OJ/0-intro/CMakeLists.txt /Users/ryan/Desktop/OJ/1-types-io/CMakeLists.txt /Users/ryan/Desktop/OJ/11-list/CMakeLists.txt /Users/ryan/Desktop/OJ/12-ll/CMakeLists.txt /Users/ryan/Desktop/OJ/12-ll/LinkedLists/CMakeLists.txt /Users/ryan/Desktop/OJ/2-if-for-array/CMakeLists.txt /Users/ryan/Desktop/OJ/3-while/CMakeLists.txt /Users/ryan/Desktop/OJ/4-loop/CMakeLists.txt /Users/ryan/Desktop/OJ/5-function/CMakeLists.txt /Users/ryan/Desktop/OJ/6-recur/CMakeLists.txt /Users/ryan/Desktop/OJ/7-datatypes/CMakeLists.txt /Users/ryan/Desktop/OJ/8-pointer/CMakeLists.txt /Users/ryan/Desktop/OJ/9-ptrs/CMakeLists.txt /Users/ryan/Desktop/OJ/CMakeLists.txt /Users/ryan/Desktop/OJ/append/CMakeLists.txt /Users/ryan/Desktop/OJ/contest/CMakeLists.txt /Users/ryan/Desktop/OJ/exam/CMakeLists.txt /Users/ryan/Desktop/OJ/project1/CMakeLists.txt /Users/ryan/Desktop/OJ/test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/ryan/Desktop/OJ/0-intro/CMakeLists.txt /Users/ryan/Desktop/OJ/1-types-io/CMakeLists.txt /Users/ryan/Desktop/OJ/11-list/CMakeLists.txt /Users/ryan/Desktop/OJ/12-ll/CMakeLists.txt /Users/ryan/Desktop/OJ/12-ll/LinkedLists/CMakeLists.txt /Users/ryan/Desktop/OJ/2-if-for-array/CMakeLists.txt /Users/ryan/Desktop/OJ/3-while/CMakeLists.txt /Users/ryan/Desktop/OJ/4-loop/CMakeLists.txt /Users/ryan/Desktop/OJ/5-function/CMakeLists.txt /Users/ryan/Desktop/OJ/6-recur/CMakeLists.txt /Users/ryan/Desktop/OJ/7-datatypes/CMakeLists.txt /Users/ryan/Desktop/OJ/8-pointer/CMakeLists.txt /Users/ryan/Desktop/OJ/9-ptrs/CMakeLists.txt /Users/ryan/Desktop/OJ/CMakeLists.txt /Users/ryan/Desktop/OJ/append/CMakeLists.txt /Users/ryan/Desktop/OJ/contest/CMakeLists.txt /Users/ryan/Desktop/OJ/exam/CMakeLists.txt /Users/ryan/Desktop/OJ/project1/CMakeLists.txt /Users/ryan/Desktop/OJ/test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

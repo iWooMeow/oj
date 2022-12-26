@@ -1,0 +1,6 @@
+
+1c:S1481"unused variable 'black'(¸¼ùû8«íåÆÓ0
+dc:S134""MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¯™êÿøÿÿÿÿ
+Hc:S1079"5Add a field width specifier to this "%s" placeholder.(À«»ú
+ec:S999&"GThis goto statement must be replaced by a standard iteration statement.(†ìêåúÿÿÿÿ8ÙàâÆÓ0
+uc:S108)"\Fill this compound statement, remove it, or add a nested comment explaining why it is empty.(ôŠ³Ò8ÉñæÆÓ0

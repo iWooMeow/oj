@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="OJ" targetName="test" />
+      <config projectName="OJ" targetName="josephus" />
+      <config projectName="OJ" targetName="multithread" />
+      <config projectName="OJ" targetName="submit" />
+      <config projectName="OJ" targetName="OJ" />
+      <config projectName="OJ" targetName="myadd" />
+      <config projectName="OJ" targetName="LinkedList" />
+      <config projectName="OJ" targetName="gobang" />
+      <config projectName="OJ" targetName="bsearch" />
+      <config projectName="OJ" targetName="sorted" />
+      <config projectName="OJ" targetName="lineup" />
+      <config projectName="OJ" targetName="lineupArray" />
+      <config projectName="OJ" targetName="cube" />
+      <config projectName="OJ" targetName="gen" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
+      <configuration PROFILE_NAME="Debug-Coverage" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_CXX_FLAGS=&quot;-fprofile-instr-generate -fcoverage-mapping&quot; -DCMAKE_C_FLAGS=&quot;-fprofile-instr-generate -fcoverage-mapping&quot;" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4150258-75a1-423f-ae22-32d72ebcdd90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.clang-format" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OJ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-doubleptrs/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-list/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-ll/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-ll/LinkedLists/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-ll/LinkedLists/LinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-ll/LinkedLists/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-ll/josephus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-ll/josephus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-while/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-loop/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-function/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-recur/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-datatypes/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-datatypes/cube.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-pointer/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-ptrs/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/append/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/bsearch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/gen.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/gobang.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/lineup.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/lineupArray.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/multithread.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/sorted.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/submit.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/test.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/test.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/test.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/cal.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/cal.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project2/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project2/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project2/project2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/myadd.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/myadd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/myadd.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/query/client-nvim-gdb/query.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/codemodel-v2-f7b4fe1b7247fa4793c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/directory-.-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/directory-0-intro-13b31864666c85ec368a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/directory-1-types-io-557521dfdc9490a16800.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/directory-1-types-io.hw-2b300ef19f5a07960576.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/directory-2-if-for-array-918b279c183e85f93c38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/index-2022-10-22T13-56-59-0409.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/target-aPlusB.out-21338578f7ee5aa1e4d5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/target-circle.out-7b61bc54ab41906bf56d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/target-guessNumber.out-c8f7c721e505aa821dc1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/target-hello.out-a1e2f0674e2f9d27d18e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/target-mol.out-168259c69c5c2356d185.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/target-ob-evo.out-8c5e398a40a1de0a1c6f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/target-pi.out-d429e2616e5b83ff1c5e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/target-single.out-d3ea511734e1eeab0f7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cmake/api/v1/reply/target-sphere.out-20106ebda296be1abcdb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/aPlusB.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/aPlusB.c.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/aPlusB.out.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/guessNumber.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/guessNumber.c.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/guessNumber.out.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/hello.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/hello.c.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/hello.out.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/0-intro/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-intro/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/circle.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/circle.c.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/circle.out.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/mol.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/mol.c.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/mol.out.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/sphere.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeFiles/sphere.out.dir/sphere.c.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1-types-io/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-types-io/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/ob-evo.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/ob-evo.c.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/ob-evo.out.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/single.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeFiles/single.out.dir/single.c.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2-if-for-array/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-if-for-array/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-datatypes/MergeSortAdvance.c" beforeDir="false" afterPath="$PROJECT_DIR$/7-datatypes/MergeSortAdvance.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.24.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/exam/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.24.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/play" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/play.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/exam/lineup.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/project2/main.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.4" />
+  </component>
+  <component name="ProjectId" id="2IoYJi0pAypBWksCtyxGZPt3Mn9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ryan/Desktop/OJ&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="ls" />
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.cube">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="LinkedList" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bsearch" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="bsearch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="bsearch">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cube" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="cube" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="cube">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="gen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="gen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gobang" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="gobang" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="gobang">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="josephus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="josephus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="josephus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lineup" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="lineup" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="lineup">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lineupArray" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="lineupArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="lineupArray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="multithread" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="multithread" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="multithread">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myadd" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="myadd" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sorted" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="sorted" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="sorted">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="submit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="submit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" path="">
+      <method v="2" />
+    </configuration>
+    <configuration name="help" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/project2/Makefile" target="help" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.josephus" />
+      <item itemvalue="CMake Application.LinkedList" />
+      <item itemvalue="CMake Application.cube" />
+      <item itemvalue="CMake Application.bsearch" />
+      <item itemvalue="CMake Application.gen" />
+      <item itemvalue="CMake Application.gobang" />
+      <item itemvalue="CMake Application.lineup" />
+      <item itemvalue="CMake Application.lineupArray" />
+      <item itemvalue="CMake Application.multithread" />
+      <item itemvalue="CMake Application.sorted" />
+      <item itemvalue="CMake Application.submit" />
+      <item itemvalue="CMake Application.myadd" />
+      <item itemvalue="CMake Application.test" />
+      <item itemvalue="Makefile Target.help" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.help" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4150258-75a1-423f-ae22-32d72ebcdd90" name="Changes" comment="" />
+      <created>1670849333026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670849333026</updated>
+      <workItem from="1670849335161" duration="580000" />
+      <workItem from="1670849925097" duration="83000" />
+      <workItem from="1670850016607" duration="140000" />
+      <workItem from="1670850183877" duration="1518000" />
+      <workItem from="1670851715286" duration="796000" />
+      <workItem from="1670852528251" duration="337000" />
+      <workItem from="1670852878250" duration="434000" />
+      <workItem from="1670853318226" duration="3000" />
+      <workItem from="1670853331884" duration="2317000" />
+      <workItem from="1670855663989" duration="507000" />
+      <workItem from="1670856182505" duration="2034000" />
+      <workItem from="1670892333471" duration="1081000" />
+      <workItem from="1670894190498" duration="123000" />
+      <workItem from="1670894323744" duration="304000" />
+      <workItem from="1670894638117" duration="93000" />
+      <workItem from="1670894739181" duration="1041000" />
+      <workItem from="1670895792202" duration="172000" />
+      <workItem from="1670895975218" duration="195000" />
+      <workItem from="1670896181325" duration="69000" />
+      <workItem from="1670896258492" duration="101000" />
+      <workItem from="1670896367846" duration="47000" />
+      <workItem from="1671154787946" duration="13716000" />
+      <workItem from="1671244829387" duration="6634000" />
+      <workItem from="1671689100951" duration="6979000" />
+      <workItem from="1671696108655" duration="122000" />
+      <workItem from="1671696380638" duration="4118000" />
+      <workItem from="1671721152307" duration="28000" />
+      <workItem from="1671721186012" duration="564000" />
+      <workItem from="1671725120319" duration="2486000" />
+      <workItem from="1671768601201" duration="535000" />
+      <workItem from="1671769143463" duration="6101000" />
+      <workItem from="1671777937677" duration="12261000" />
+      <workItem from="1671798411561" duration="8061000" />
+      <workItem from="1671806490681" duration="4000" />
+      <workItem from="1671806501744" duration="4811000" />
+      <workItem from="1671811430616" duration="9329000" />
+      <workItem from="1672060237514" duration="1314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/exam/lineup.c</url>
+          <line>153</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/exam/lineup.c</url>
+          <line>119</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/exam/lineup.c</url>
+          <line>126</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/exam/lineup.c</url>
+          <line>133</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/exam/lineup.c</url>
+          <line>140</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/exam/lineup.c</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

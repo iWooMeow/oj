@@ -97,8 +97,8 @@ void QuickSortPit(int *array, int left, int right) {
     // SWAP(array[left], array[leftCnt]);
     array[leftCnt] = pivot;
 
-    QuickSortHoare(array, left, leftCnt - 1);
-    QuickSortHoare(array, leftCnt + 1, right);
+    QuickSortPit(array, left, leftCnt - 1);
+    QuickSortPit(array, leftCnt + 1, right);
   }
 }
 
